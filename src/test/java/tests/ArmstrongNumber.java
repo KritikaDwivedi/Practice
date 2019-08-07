@@ -7,9 +7,14 @@ public class ArmstrongNumber {
 		int num=153, sum=0;
 		for(int i=num;i>0;i=i/10) {
 			int a=i%10;
-			sum=(int)(sum + Math.pow(a, 3));
+		//	sum=(int)(sum + Math.pow(a, 3));
+			sum=(a*a*a)+sum;
 		}
-		System.out.println(sum);
+		if(sum==num) {
+		System.out.println("Armstrong");
+		}
+		else
+			System.out.println("Not an amstrong number");
 	}
 
 }

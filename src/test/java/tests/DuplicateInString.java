@@ -6,7 +6,7 @@ public class DuplicateInString {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String str="karitikaaaaakaaaa is my name";
+		String str="karitikaaaaakaaaa4 is my4 name ";
 		char c1 = 0;
 		int i;
 		HashMap<Character,Integer> map=new HashMap<Character,Integer>();

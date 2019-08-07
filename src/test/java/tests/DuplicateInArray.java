@@ -27,6 +27,7 @@ public class DuplicateInArray {
 			}
 		}
 		System.out.println("Duplicate numbers are: "+set);
+		//set.forEach((inte)->System.out.println(inte));
 
 	}
 

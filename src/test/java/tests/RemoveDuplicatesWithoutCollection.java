@@ -20,10 +20,10 @@ public class RemoveDuplicatesWithoutCollection {
 				if(j==4) 
 					arr2[k++]=arr[4];
 				else {
-				if(arr[j]!=arr[j+1]) {
-					arr2[k++]=arr[j];
-				}
-				}					
+					if(arr[j]!=arr[j+1]) {
+							arr2[k++]=arr[j];
+						}
+					}					
 				}			
 		
 		for(i=0;i<arr2.length;i++) {

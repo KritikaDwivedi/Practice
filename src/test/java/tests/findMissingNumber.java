@@ -18,12 +18,14 @@ public class findMissingNumber {
 				}
 			}
 		}
-		
-		for(i=0;i<arr.length;i++)
+		int m=arr[arr.length-1];
+		System.out.println(m);
+		int n=0;
+		for(i=0;i<m;i++)
 		{
-			if(arr[i]!=l) {
+			if(arr[n++]!=l) {
 				System.out.println(l+" is missing");
-				i--;
+				n--;
 			}
 			l++;
 		}
